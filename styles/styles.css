@@ -1,0 +1,113 @@
+/*div {
+    border:1px solid black;
+}
+*/
+.wholeBody {
+   padding:0px;
+}
+/*-----------------------------------------------------------------------------------------------------------------------*/
+/* NAVIGATION BAR START */
+#navigationBarTop {
+    background-color: maroon;
+    padding: 0%;
+    margin:0px;
+    height: 45px;
+}
+#navigationBarTop a {
+    color: white;
+}
+#navigationBarTop .float-left a:hover {
+    border-left: 1px solid white;
+    border-right: 1px solid white;
+}
+#navigationBarTop .float-right #facebookLink a:hover {
+    color: blue;
+}
+#navigationBarTop .float-right #twitterLink a:hover {
+    color: lightskyblue;
+}
+#navigationBarTop .float-right #linkedinLink a:hover {
+    color: cornflowerblue
+}
+#navigationBarTop .float-right #youtubeLink a:hover {
+    color: red;
+}
+/* NAVIGATION BAR END */
+/*-----------------------------------------------------------------------------------------------------------------------*/
+/* TOP HEADER START */
+#nameLogo {
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+#nameLogo img {
+    width: 100%;
+    height: auto;
+}
+#searchButton {
+    margin-top: 40px;
+    width: 200px;
+}
+#topHeader button {
+    color: white;
+    background-color: black;    
+}
+#topHeader {
+    padding-bottom: 110px;
+}
+/* TOP HEADER END */
+/*-----------------------------------------------------------------------------------------------------------------------*/
+hr {
+    clear: both;
+    margin:0px;
+    margin-bottom: 10px;
+}
+/*-----------------------------------------------------------------------------------------------------------------------*/
+/* SECOND NAVIGATION BAR STRAT */
+.navbar-collapse > .navbar-nav > .nav-item > a:hover {
+    border-top: 2px solid maroon;
+    font-size: 0.95em;
+}
+.navbar-collapse li {
+    font-size: 0.9em;
+    width:100px;
+}
+.dropdown-menu > a, .dropdown-menu > h6 {
+    color: maroon;
+}
+.dropdown-menu > a:hover {
+    font-size: 1.2em;
+    color: red;
+}
+.sticky-top {
+    background-color: white;
+    margin: auto;
+    padding: auto;
+    vertical-align: middle;
+}
+#navigationMovingBar {
+    margin:0px;
+    padding: 0px;
+}
+.container, .container-fluid {
+    padding-top: 0%;
+}
+.dropdown-menu {
+    height: fit-content;
+    width: fit-content;
+}
+/* SECOND NAVIGATION BAR END */
+/*-----------------------------------------------------------------------------------------------------------------------*/
+/* JUMBOTRON START */
+
+#displayPhotos img {
+    width: 100%;
+    height: auto;
+}
+
+/* JUMBOTRON END */
+/*-----------------------------------------------------------------------------------------------------------------------*/
+/**/
+/**/
+/*-----------------------------------------------------------------------------------------------------------------------*/
+/**/
+/**/
