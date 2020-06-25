@@ -107,6 +107,138 @@ hr {
 /* JUMBOTRON END */
 /*-----------------------------------------------------------------------------------------------------------------------*/
 /**/
+
+#wholeBodyPart2_1 {
+    padding-right:50px;
+    padding-left: 50px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+#coloumn-1_1 {
+    margin:20px 0px 20px 0px;
+}
+#triButton {
+    margin-left: auto;
+    margin-right: auto
+}
+
+.btn-group button {
+    border-radius: 2px;
+    background-color:lightgray;
+    color: black;
+    text-align: center;
+    font-size: 0.9em;
+    height: 4em;
+    width: auto;
+}
+.btn-group {
+    text-align: center;
+}
+.btn-group button svg {
+    font-size: 1.5em;
+    margin: 5px;
+}
+.btn-group button:hover {
+    background-color:darkgray;
+    color:black;
+}
+#bulletinBoard {
+    margin: 40px 20px 30px 20px;
+    height: 50%;
+    overflow: auto;
+    padding :5px;
+}
+#bulletinBoard hr {
+    margin:1px
+}
+#bulletinBoard a {
+    color: black;
+}
+#bulletinBoard a em {
+    color: #990000;
+}
+#bulletinBoard a em:hover {
+    color: #cc0000;
+    font-size: 1.1em;
+}
+
+#bulletinBoard::-webkit-scrollbar {
+    display: none;
+}
+/*COLOUMN-1_1 END----------------------------------------------------------*/
+
+/*COLOUMN-1_2 START----------------------------------------------------------*/
+#coloumn-1_2 {
+    text-align: center;
+    margin:20px 0px 20px 0px;
+    padding:0px;
+}
+#coloumn-1_2 .font-weight-lighter {
+    color: maroon;
+    font-size: 2em;
+    margin-top: auto ;
+    margin-bottom: 1%;
+}
+
+.material-icons {
+    color: whitesmoke;
+    text-align: center;
+    font-size: 2em;
+    padding:10px;
+    margin:10px;
+    border: 0.5px solid maroon;
+    border-radius: 50%;
+    background-color: black;
+}
+
+.easyLinks div {
+    background-color: #f2f2f2;
+    margin: 4%;
+    width: 40%;
+    padding: 3%;
+}
+.easyLinks p {
+    font-size: 0.8em;
+    font-weight: 700;
+    color: #4d4d4d;
+}
+.easyLinks div:hover {
+    background-color: #d9d9d9;   
+}
+
+
+/*COLOUMN-1_2 END----------------------------------------------------------*/
+
+/*COLOUMN-1_3 START----------------------------------------------------------*/
+#coloumn-1_3 div {
+    width:40%;
+    padding-top:2%;
+    padding-bottom: 2%;
+    padding-left: 4%;
+    padding-right: 4%;
+    height: 30%;
+    border: 0.5px solid lightgray;
+    margin:5%;
+}
+#coloumn-1_3 div img {
+    width:90%;
+    height auto;
+    border-radius: 50%;
+    padding:2px
+}
+#coloumn-1_3 .post, #coloumn-1_3 .name {
+    font-size: 0.8em;
+}
+#coloumn-1_3 .name {
+    font-weight: 600;
+    margin-bottom: 2px;
+}
+#coloumn-1_3 .post {
+    font-weight: 400;
+    margin-bottom: 2px;
+}
+/*COLOUMN-1_3 END----------------------------------------------------------*/
+
 /**/
 /*-----------------------------------------------------------------------------------------------------------------------*/
 /**/
