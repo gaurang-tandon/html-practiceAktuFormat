@@ -108,11 +108,16 @@ hr {
 /*-----------------------------------------------------------------------------------------------------------------------*/
 /**/
 
+
+/*COLOUMN-1_1 START-----------------------------div {
+    border : 1px solid black
+}-----------------------------*/
 #wholeBodyPart2_1 {
     padding-right:50px;
     padding-left: 50px;
     padding-top: 20px;
     padding-bottom: 20px;
+    height: 400px;
 }
 #coloumn-1_1 {
     margin:20px 0px 20px 0px;
@@ -239,7 +244,30 @@ hr {
 }
 /*COLOUMN-1_3 END----------------------------------------------------------*/
 
-/**/
-/*-----------------------------------------------------------------------------------------------------------------------*/
-/**/
-/**/
+#wholeBodyPart2_2 {
+    margin-top:5%;
+    background-color: #e6ffff;
+    padding:20px;
+}
+#wholeBodyPart2_2 >div>div {
+    width:50%;
+}
+.wholeBodyPart2_2_2 div>div {
+    min-height: 40%;
+    background-color: white;
+    border: 1px solid black;
+    margin-top:10px;
+}
+.wholeBodyPart2_2_1 div>div {
+    margin-top:10px;
+    background-color: #d9d9d9;
+    height:90%;
+}
+.icon_1 {
+    font-size: 3em;
+    margin: 20px;   
+}
+.icon_2 {
+    font-size: 2em;
+    margin: 20px;
+}
